@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment (each person creates their own from requirements.txt)
+.venv/
+venv/
+env/
+
+# PyCharm / VS Code settings
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large media (share screen recordings outside the repo)
+*.mp4
+*.mov
+screenrecording/

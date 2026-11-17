@@ -1,0 +1,16 @@
+/* Dash loads any CSS in the assets/ folder automatically */
+body { margin: 0; background: #f4f6f3; font-family: "Segoe UI", Roboto, Arial, sans-serif; color: #1f2a1f; }
+.page { max-width: 1200px; margin: 0 auto; padding: 0 16px 40px; }
+header { padding: 24px 0 12px; }
+header h1 { margin: 0; color: #2e7d32; font-size: 28px; }
+header p { margin: 4px 0 0; color: #5a665a; }
+.tabs { margin-bottom: 16px; }
+.tab-content, .tabs + div { background: #fff; border-radius: 0 0 8px 8px; padding: 16px; }
+.row { display: flex; flex-wrap: wrap; gap: 16px; }
+.control { flex: 1 1 260px; margin-bottom: 14px; }
+.label { display: block; font-weight: 600; font-size: 13px; margin-bottom: 4px; color: #3b473b; }
+.control input[type="text"] { width: 100%; box-sizing: border-box; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+.note { color: #666; font-size: 13px; }
+.summary { background: #e8f5e9; border-left: 4px solid #2e7d32; padding: 12px 14px; border-radius: 4px; font-size: 15px; }
+.export { background: #2e7d32; color: #fff; border: 0; border-radius: 4px; padding: 7px 14px; font-weight: 600; cursor: pointer; margin-bottom: 8px; }
+.export:hover { background: #1b5e20; }

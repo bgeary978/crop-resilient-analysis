@@ -1,0 +1,6 @@
+# Exact versions the dashboard was tested with - everyone in the team installs the same ones
+dash==4.5.0
+plotly==7.1.0
+pandas==3.0.5
+numpy==2.5.3
+pytest==9.1.1
